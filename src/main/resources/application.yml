@@ -1,0 +1,15 @@
+aws:
+  access-key: dummy
+  secret-key: dummy
+  current_region: ap-northeast-1
+  task-role-arn: dummy
+  cognito:
+    user-pool-id: dummy
+    user-pool-client-id: dummy
+    cognito-endpoint: http://localhost:5000
+  sqs:
+    active : local
+    queue-endpoint: http://localhost:4566
+    queue-url: http://localhost:4566/000000000000/test-queue
+    from: dummy
+    scouter-url: dummy
